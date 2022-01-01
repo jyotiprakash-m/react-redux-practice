@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import CakeContainer from './components/cakeContainer';
+// import CakeContainer from './components/cakeContainer';
 
 // Import Provider from the react-redux (Most Important step)
 import { Provider } from 'react-redux'
@@ -11,9 +11,7 @@ import NavBar from './components/NavBar';
 import {
   BrowserRouter as Router,
   Route,
-  Routes,
-  useParams,
-  useLocation
+  Routes
 
 } from "react-router-dom";
 import Home from './components/pages/Home';

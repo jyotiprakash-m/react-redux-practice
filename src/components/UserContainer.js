@@ -6,8 +6,10 @@ function UserContainer() {
     const dispatch = useDispatch()
     console.log("All Users data: ", users)
     useEffect(() => {
+
         dispatch(fetchUsers())
-    }, [])
+
+    }, [dispatch])
     return (
         <div>
             <h1>Users</h1>

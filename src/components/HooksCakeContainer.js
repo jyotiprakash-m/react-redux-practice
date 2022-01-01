@@ -6,6 +6,8 @@ function HooksCakeContainer() {
 
     const numOfCakes = useSelector(state => state.cake.numOfCakes)
     const dispatch = useDispatch()
+
+
     return (
         <div>
             <h2>Number Of Cake - {numOfCakes} </h2>

@@ -1,4 +1,3 @@
-import cakeReducer from "../cake/cakeReducer";
 import { BUY_ICECREAM } from "./iceCreamType";
 
 const initialState = {

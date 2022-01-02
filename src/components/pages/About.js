@@ -7,7 +7,7 @@ function About() {
     const notify = () => toast.warn(`Click to ${blur === true ? "Show" : "Blur"} the plan`);
     useEffect(() => {
         notify()
-    }, [blur])
+    }, [blur, notify])
     console.log(blur)
     return (
         <div>

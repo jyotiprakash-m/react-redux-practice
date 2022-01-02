@@ -4,10 +4,10 @@ import 'react-toastify/dist/ReactToastify.css';
 // import plan from '../../../public/plan.PNG';
 function About() {
     const [blur, setBlur] = useState(true)
-    const notify = () => toast.warn(`Click to ${blur === true ? "Show" : "Blur"} the plan`);
     useEffect(() => {
+        const notify = () => toast.warn(`Click to ${blur === true ? "Show" : "Blur"} the plan`);
         notify()
-    }, [blur, notify])
+    }, [blur])
     console.log(blur)
     return (
         <div>
